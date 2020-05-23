@@ -1,0 +1,98 @@
+/* CSS files add styling rules to your content */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=swap');
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 2em;
+  color: #E9E7F0;
+  background-image: url(https://nintendowire.com/wp-content/uploads/2020/02/Walmart-AnimalCrossing-NewHorizons-Wallpaper-Characters.jpg);
+}
+
+.wrapper {
+  width: 75%;
+  padding: 30px;
+  height: 550px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 145%;
+  text-align: center;
+  color: rgb(148, 182, 255);
+  }
+
+.info {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 5px;
+}
+
+.form {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 50px;
+  margin: 10px;
+}
+
+.button {
+align-items: center;
+align-self: center;
+margin-left: 45%;
+}
+
+.result {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(148, 182, 255);
+}
+
+label {
+  font-size: 125%;
+}
+
+.name-input, .sign-input {
+  background-color: rgb(148, 182, 255, 0.5);
+  border: none;
+  border-bottom: 1px solid #E9E7F0;
+  outline: rgba(110, 110, 110, 0.75);
+  color: rgb(148, 182, 255);
+  width: 200px;
+  font-size: 120%;
+  font-family: 'Nunito Sans', sans-serif;
+  padding: 2px 4px;
+  
+}
+
+.go-btn {
+  font-family: 'Nunito Sans', sans-serif;
+  cursor: pointer;
+  padding: 8px 12px;
+  font-size: 125%;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 3px;
+  border: 1px solid rgb(255, 255, 255);
+  color: rgb(148, 182, 255);
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.result-msg {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 150%;
+  margin-bottom: 0;
+  color: rgb(148, 182, 255);
+}
+
+.sign-result {
+  font-size: 150%;
+  margin-top: 0;
+  color: rgb(148, 182, 255);
+
+}
